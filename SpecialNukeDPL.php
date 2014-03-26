@@ -3,7 +3,7 @@
 class SpecialNukeDPL extends SpecialPage {
 
 	function __construct() {
-		parent::__construct( 'NukeDPL', 'nukeDPL' );
+		parent::__construct( 'NukeDPL', 'nukedpl' );
 	}
 
 	function execute( $parser = null ) {
@@ -20,7 +20,7 @@ class SpecialNukeDPL extends SpecialPage {
 		if ( $request->wasPosted() ) {
 			$ids = $request->getArray( 'ids' );
 			$query = $request->getText( 'query' );
-			$reason = $request->getText( 'reason', wfMessage( 'nukedpl-defaultreason', $query )->inContentLanguage()->text() );
+			$reason = $request->getText( 'reason', $this->msg( 'nukedpl-defaultreason', $query )->inContentLanguage()->text() );
 			if ( $query ) {
 				$this->deleteForm( $query, $reason );
 			} else {
@@ -36,11 +36,11 @@ class SpecialNukeDPL extends SpecialPage {
 		$title = $this->getTitle();
 		$output = $this->getOutput();
 
-		$output->addWikiText( wfMessage( 'nukedpl-intro' )->text() );
+		$output->addWikiText( $this->msg( 'nukedpl-intro' )->text() );
 
 		$output->addHTML( Xml::element( 'form', array( 'action' => $title->getLocalURL( 'action=submit' ), 'method' => 'post' ), null ) );
 		$output->addHTML( '<textarea name="query" cols="25" rows="30">' . $egNukeDPLDefaultText . '</textarea>' );
-		$output->addHTML( Xml::element( 'input', array( 'type' => 'submit', 'value' => wfMessage( 'nukedpl-candidatelist' )->text() ) ) );
+		$output->addHTML( Xml::element( 'input', array( 'type' => 'submit', 'value' => $this->msg( 'nukedpl-candidatelist' )->text() ) ) );
 		$output->addHTML( '</form>' );
 	}
 
@@ -50,15 +50,15 @@ class SpecialNukeDPL extends SpecialPage {
 
 		$pages = $this->getPages( $query );
 		if ( count( $pages ) == 0 ) {
-			$output->addWikiText( wfMessage( 'nukedpl-nopages', $query )->text() );
+			$output->addWikiText( $this->msg( 'nukedpl-nopages', $query )->text() );
 			return $this->queryForm();
 		}
 
-		$output->addWikiText( wfMessage( 'nukedpl-list', $query )->text() );
+		$output->addWikiText( $this->msg( 'nukedpl-list', $query )->text() );
 
 		$output->addHTML( Xml::element( 'form', array( 'action' => $title->getLocalURL( 'action=delete' ), 'method' => 'post' ), null ) );
-		$output->addHTML( Xml::element( 'input', array( 'type' => 'submit', 'value' => wfMessage( 'nukedpl-nuke' )->text() ) ) );
-		$output->addHTML( '<div>' . wfMessage( 'deletecomment' )->escaped() . '</div>' );
+		$output->addHTML( Xml::element( 'input', array( 'type' => 'submit', 'value' => $this->msg( 'nukedpl-nuke' )->text() ) ) );
+		$output->addHTML( '<div>' . $this->msg( 'deletecomment' )->escaped() . '</div>' );
 		$output->addHTML( Xml::element( 'input', array( 'name' => 'reason', 'value' => $reason, 'size' => 60 ) ) );
 		$output->addHTML( '<ol>' );
 		foreach ( $pages as $page ) {
@@ -71,7 +71,7 @@ class SpecialNukeDPL extends SpecialPage {
 			}
 		}
 		$output->addHTML( '</ol>' );
-		$output->addHTML( Xml::element( 'input', array( 'type' => 'submit', 'value' => wfMessage( 'nukedpl-nuke' )->text() ) ) );
+		$output->addHTML( Xml::element( 'input', array( 'type' => 'submit', 'value' => $this->msg( 'nukedpl-nuke' )->text() ) ) );
 		$output->addHTML( '</form>' );
 	}
 

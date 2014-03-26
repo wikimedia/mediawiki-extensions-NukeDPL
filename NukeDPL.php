@@ -5,12 +5,12 @@ $wgExtensionCredits['specialpage'][] = array(
 	'author' => array( '[[User:Nad|Nad]]', '[[User:Luis Felipe Schenone|LFS]]' ),
 	'version' => 1.3,
 	'descriptionmsg' => 'nukedpl-desc',
-	'url' => 'http://www.mediawiki.org/wiki/Extension:NukeDPL',
+	'url' => 'https://www.mediawiki.org/wiki/Extension:NukeDPL',
 );
 
-$wgAvailableRights[] = 'nuke';
+$wgAvailableRights[] = 'nukedpl';
 
-$wgGroupPermissions['sysop']['nuke'] = true;
+$wgGroupPermissions['sysop']['nukedpl'] = true;
 
 $wgSpecialPages['NukeDPL'] = 'SpecialNukeDPL';
 
