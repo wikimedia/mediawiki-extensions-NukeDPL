@@ -8,9 +8,9 @@ $wgExtensionCredits['specialpage'][] = array(
 	'url' => 'http://www.mediawiki.org/wiki/Extension:NukeDPL',
 );
 
-$wgAvailableRights[] = 'nukeDPL';
+$wgAvailableRights[] = 'nuke';
 
-$wgGroupPermissions['sysop']['nukeDPL'] = true;
+$wgGroupPermissions['sysop']['nuke'] = true;
 
 $wgSpecialPages['NukeDPL'] = 'SpecialNukeDPL';
 
