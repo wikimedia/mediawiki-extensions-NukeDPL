@@ -1,6 +1,7 @@
 <?php
 
 $wgExtensionCredits['specialpage'][] = array(
+	'path' => __FILE__,
 	'name' => 'NukeDPL',
 	'author' => array( '[[User:Nad|Nad]]', '[[User:Luis Felipe Schenone|LFS]]' ),
 	'version' => 1.3,
@@ -17,6 +18,7 @@ $wgSpecialPages['NukeDPL'] = 'SpecialNukeDPL';
 $wgSpecialPageGroups['NukeDPL'] = 'pagetools';
 
 $wgExtensionMessagesFiles['NukeDPL'] = __DIR__ . '/NukeDPL.i18n.php';
+$wgExtensionMessagesFiles['NukeDPLAliases'] = __DIR__ . '/NukeDPL.alias.php';
 
 $wgAutoloadClasses['SpecialNukeDPL'] = __DIR__ . '/SpecialNukeDPL.php';
 
