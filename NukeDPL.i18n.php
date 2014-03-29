@@ -17,12 +17,12 @@ Enter a query below to generate a list of titles to delete.
 * Queries shouldn't be surrounded by any DPL tags or braces.
 * For information about the parameter meanings, see the [http://semeb.com/dpldemo/index.php?title=DPL:Manual DPL Manual].",
 	'nukedpl-candidatelist' => 'View candidate list',
-	'nukedpl-nopages' => "No pages to delete using DPL-query: <code>$1</code>",
+	'nukedpl-nopages' => "No pages to delete using DPL query: <code>$1</code>",
 	'nukedpl-nuke' => 'Nuke!',
-	'nukedpl-list' => 'The following {{PLURAL:$1|page was|pages were}} selected by DPL-query: <code>$1</code>
+	'nukedpl-list' => 'The following {{PLURAL:$1|page was|pages were}} selected by DPL query: <code>$2</code>
 
-Hit "{{int:nukedpl-nuke}}" to delete them.',
-	'nukedpl-defaultreason' => "Mass removal of pages selected by DPL-query: ($1)",
+Hit "{{int:nukedpl-nuke}}" to delete {{PLURAL:$1|it|them}}.',
+	'nukedpl-defaultreason' => "Mass removal of pages selected by DPL query: $1",
 	'right-nukedpl' => 'Nuke pages by Dynamic Page List queries',
 );
 
@@ -51,6 +51,8 @@ Geben Sie unten eine DPL-Query ein, um eine Liste mit den zu löschenden Seiten 
 	'nukedpl-candidatelist' => 'Anzeige der Löschkandidaten',
 	'nukedpl-nopages' => "Keine Seiten zum Löschen bei folgendem DPL-Query: <code>$1</code>",
 	'nukedpl-nuke' => 'Löschen!',
-	'nukedpl-list' => "Die folgenden Seiten wurden gefunen. DPL-Query: <code>$1</code><br />Button drücken, um diese zu löschen.",
-	'nukedpl-defaultreason' => "Massenlöschung von Seiten mittels DPL-Query: ($1)",
+	'nukedpl-list' => "Die folgenden Seiten wurden gefunen. DPL-Query: <code>$2</code>
+
+Button drücken, um diese zu löschen.",
+	'nukedpl-defaultreason' => "Massenlöschung von Seiten mittels DPL-Query: $1",
 );

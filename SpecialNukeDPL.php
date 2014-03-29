@@ -49,12 +49,13 @@ class SpecialNukeDPL extends SpecialPage {
 		$output = $this->getOutput();
 
 		$pages = $this->getPages( $query );
-		if ( count( $pages ) == 0 ) {
+		$count = count( $pages );
+		if ( $count == 0 ) {
 			$output->addWikiText( $this->msg( 'nukedpl-nopages', $query )->text() );
 			return $this->queryForm();
 		}
 
-		$output->addWikiText( $this->msg( 'nukedpl-list', $query )->text() );
+		$output->addWikiText( $this->msg( 'nukedpl-list', $count, $query )->text() );
 
 		$output->addHTML( Xml::element( 'form', array( 'action' => $title->getLocalURL( 'action=delete' ), 'method' => 'post' ), null ) );
 		$output->addHTML( Xml::element( 'input', array( 'type' => 'submit', 'value' => $this->msg( 'nukedpl-nuke' )->text() ) ) );
