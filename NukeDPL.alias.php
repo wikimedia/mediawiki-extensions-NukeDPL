@@ -18,3 +18,13 @@ $specialPageAliases['en'] = array(
 $specialPageAliases['de'] = array(
 	'NukeDPL' => array( 'Massenlöschung_DPL' ),
 );
+
+/** Simplified Chinese (中文（简体）‎) */
+$specialPageAliases['zh-hans'] = array(
+	'NukeDPL' => array( '大量删除DPL' ),
+);
+
+/** Traditional Chinese (中文（繁體）‎) */
+$specialPageAliases['zh-hant'] = array(
+	'NukeDPL' => array( '大量刪除DPL' ),
+);
