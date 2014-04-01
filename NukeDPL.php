@@ -4,7 +4,7 @@ $wgExtensionCredits['specialpage'][] = array(
 	'path' => __FILE__,
 	'name' => 'NukeDPL',
 	'author' => array( '[[User:Nad|Nad]]', '[[User:Luis Felipe Schenone|LFS]]' ),
-	'version' => 1.3,
+	'version' => '1.4.0',
 	'descriptionmsg' => 'nukedpl-desc',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:NukeDPL',
 );
@@ -17,6 +17,7 @@ $wgSpecialPages['NukeDPL'] = 'SpecialNukeDPL';
 
 $wgSpecialPageGroups['NukeDPL'] = 'pagetools';
 
+$wgMessagesDirs['NukeDPL'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['NukeDPL'] = __DIR__ . '/NukeDPL.i18n.php';
 $wgExtensionMessagesFiles['NukeDPLAliases'] = __DIR__ . '/NukeDPL.alias.php';
 

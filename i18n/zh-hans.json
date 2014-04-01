@@ -1,0 +1,14 @@
+{
+    "@metadata": {
+        "authors": [
+            "Liuxinyu970226"
+        ]
+    },
+    "nukedpl": "通过DPL查询大量删除",
+    "nukedpl-desc": "加入用于通过DPL查询大量删除的[[Special:NukeDPL|特殊页面]]",
+    "nukedpl-candidatelist": "查看候选列表",
+    "nukedpl-nopages": "没有页面可使用DPL查询删除：<code>$1</code>",
+    "nukedpl-nuke": "大量删除！",
+    "nukedpl-defaultreason": "已选择通过DPL查询大量移除的页面：$1",
+    "right-nukedpl": "通过动态页面列表（DPL）查询大量删除页面"
+}

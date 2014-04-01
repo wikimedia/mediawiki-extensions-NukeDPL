@@ -1,0 +1,13 @@
+{
+    "@metadata": {
+        "authors": [
+            "Shirayuki"
+        ]
+    },
+    "nukedpl": "DPLクエリで一括削除",
+    "nukedpl-desc": "DPL クエリで一括削除できる[[Special:NukeDPL|特別ページ]]を追加する",
+    "nukedpl-candidatelist": "候補一覧を表示",
+    "nukedpl-nopages": "以下の DPL クエリでは削除するページが見つかりませんでした: <code>$1</code>",
+    "nukedpl-nuke": "一括削除!",
+    "nukedpl-list": "DPL クエリによって以下の{{PLURAL:$1|ページ}}が選択されました: <code>$2</code>\n\n{{PLURAL:$1|このページ|これらのページ}}を削除するには「{{int:nukedpl-nuke}}」を押してください。"
+}
