@@ -4,5 +4,12 @@
             "Liuxinyu970226"
         ]
     },
-    "nukedpl": "經由DPL查詢大量刪除"
+    "nukedpl": "經由DPL查詢大量刪除",
+    "nukedpl-desc": "加入[[Special:NukeDPL|特殊頁面]]用於DPL查詢大量刪除",
+    "nukedpl-candidatelist": "查看候選列表",
+    "nukedpl-nopages": "並無頁面通過DPL查詢刪除：<code>$1</code>",
+    "nukedpl-nuke": "大量刪除！",
+    "nukedpl-list": "以下$1個頁面已被DPL查詢選擇：<code>$2</code>\n鍵入「{{int:nukedpl-nuke}}」以刪除之。",
+    "nukedpl-defaultreason": "大量移除由DPL選擇頁面：$1",
+    "right-nukedpl": "經由動態頁面列表（DPL）查詢大量刪除頁面"
 }
