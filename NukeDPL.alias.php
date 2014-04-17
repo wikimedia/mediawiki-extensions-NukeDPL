@@ -19,6 +19,11 @@ $specialPageAliases['de'] = array(
 	'NukeDPL' => array( 'Massenlöschung_DPL' ),
 );
 
+/** Zazaki (Zazaki) */
+$specialPageAliases['diq'] = array(
+	'NukeDPL' => array( 'PıperneDPL', 'Pıperne_DPL' ),
+);
+
 /** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = array(
 	'NukeDPL' => array( '大量删除DPL' ),
