@@ -24,6 +24,11 @@ $specialPageAliases['diq'] = array(
 	'NukeDPL' => array( 'PıperneDPL', 'Pıperne_DPL' ),
 );
 
+/** Korean (한국어) */
+$specialPageAliases['ko'] = array(
+	'NukeDPL' => array( 'DPL대량삭제', 'DPL_대량삭제' ),
+);
+
 /** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = array(
 	'NukeDPL' => array( '大量删除DPL' ),
