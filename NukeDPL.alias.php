@@ -29,6 +29,11 @@ $specialPageAliases['ko'] = array(
 	'NukeDPL' => array( 'DPL대량삭제', 'DPL_대량삭제' ),
 );
 
+/** Macedonian (македонски) */
+$specialPageAliases['mk'] = array(
+	'NukeDPL' => array( 'МасовноБришењеОдДинамичкиСписок' ),
+);
+
 /** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = array(
 	'NukeDPL' => array( '大量删除DPL' ),
