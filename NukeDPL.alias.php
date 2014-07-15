@@ -14,6 +14,16 @@ $specialPageAliases['en'] = array(
 	'NukeDPL' => array( 'NukeDPL', 'Nuke DPL' ),
 );
 
+/** Arabic (العربية) */
+$specialPageAliases['ar'] = array(
+	'NukeDPL' => array( 'حذف_دي_بي_إل' ),
+);
+
+/** Egyptian Spoken Arabic (مصرى) */
+$specialPageAliases['arz'] = array(
+	'NukeDPL' => array( 'حذف_دى_بى_إل' ),
+);
+
 /** German (Deutsch) */
 $specialPageAliases['de'] = array(
 	'NukeDPL' => array( 'Massenlöschung_DPL' ),
