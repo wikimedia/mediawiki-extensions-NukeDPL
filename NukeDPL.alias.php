@@ -51,5 +51,5 @@ $specialPageAliases['zh-hans'] = array(
 
 /** Traditional Chinese (中文（繁體）‎) */
 $specialPageAliases['zh-hant'] = array(
-	'NukeDPL' => array( '大量刪除 DPL' ),
+	'NukeDPL' => array( '大量刪除_DPL' ),
 );
