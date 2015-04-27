@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Elisardojm"
+		]
+	},
+	"nukedpl": "Borrado masivo por petición LPD",
+	"nukedpl-desc": "Engade unha [[Special:NukeDPL|paxina especial]] para borrado masivo por petición LPD",
+	"nukedpl-candidatelist": "Ver lista de candidatos",
+	"nukedpl-nopages": "Non hai páxinas a borrar usando a petición LPD: <code>$1</code>",
+	"nukedpl-nuke": "Suprimir!",
+	"nukedpl-defaultreason": "Borrado masivo de páxinas seleccionadas pola petición LPD: $1",
+	"right-nukedpl": "Borrar páxinas por peticións de Lista de Páxinas Dinámica"
+}
