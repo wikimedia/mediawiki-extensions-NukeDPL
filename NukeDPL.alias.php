@@ -19,7 +19,7 @@ $specialPageAliases['ar'] = array(
 	'NukeDPL' => array( 'حذف_دي_بي_إل' ),
 );
 
-/** Egyptian Spoken Arabic (مصرى) */
+/** Egyptian Arabic (مصرى) */
 $specialPageAliases['arz'] = array(
 	'NukeDPL' => array( 'حذف_دى_بى_إل' ),
 );
