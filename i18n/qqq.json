@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Shirayuki"
+			"Shirayuki",
+			"Nemo bis"
 		]
 	},
-	"nukedpl": "{{doc-special|NukeDPL}}",
+	"nukedpl": "{{doc-special|NukeDPL}}\nDPL means DynamicPageList, the name of an extension and tag.",
 	"nukedpl-desc": "{{desc|name=NukeDPL|url=https://www.mediawiki.org/wiki/Extension:NukeDPL}}",
 	"nukedpl-intro": "Text explaining how to use the special page",
 	"nukedpl-candidatelist": "Text in the button that generates the list of pages to be deleted",

@@ -9,6 +9,7 @@
 	"nukedpl-candidatelist": "Ver lista de candidatos",
 	"nukedpl-nopages": "Non hai páxinas a borrar usando a petición LPD: <code>$1</code>",
 	"nukedpl-nuke": "Suprimir!",
+	"nukedpl-list": "{{PLURAL:$1|A seguinte páxina foi|as seguintes páxinas foron}} seleccionadas pola consulta DPL: <code>$2</code>\n\nPrema \"{{int:nukedpl-nuke}}\" para  {{PLURAL:$1|borrala|borralas}}.",
 	"nukedpl-defaultreason": "Borrado masivo de páxinas seleccionadas pola petición LPD: $1",
 	"right-nukedpl": "Borrar páxinas por peticións de Lista de Páxinas Dinámica"
 }
