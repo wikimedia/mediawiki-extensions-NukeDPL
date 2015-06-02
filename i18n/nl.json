@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Esketti"
+		]
+	},
+	"nukedpl": "Massa verwijderen door DPL query",
+	"nukedpl-desc": "Voegt een [[Special:NukeDPL|speciale pagina ' s]] voor de massa verwijderen door DPL query",
+	"nukedpl-intro": "Deze tool zorgt voor een massa verwijderen van pagina ' s geselecteerd door een DPL-query.\n!\nVoer een query hieronder voor het genereren van een lijst van titels te wissen.\n* Titels kunnen individueel worden verwijderd voordat u deze verwijdert.\n* Vergeet niet, titels van pagina ' s zijn hoofdlettergevoelig.\n* Query ' s mogen niet worden omringd door een DPL-tags of accolades.\n* Voor informatie over de parameter betekenissen, zie [http://semeb.com/dpldemo/index.php?title=DPL:Manual DPL Handmatig].",
+	"nukedpl-candidatelist": "Bekijk de kandidaat-lijst",
+	"nukedpl-nopages": "Geen pagina ' s verwijderen met behulp van DPL query: <code>$1</code>",
+	"nukedpl-nuke": "Nuke!",
+	"nukedpl-list": "De volgende {{PLURAL:$1|pagina|pagina ' s}} geselecteerd door DPL query: <code>$2</code>\n!\nDruk op \"{{int:nukedpl-nuke}}\" verwijderen van {{PLURAL:$1|is|}}.",
+	"nukedpl-defaultreason": "Massa verwijderen van pagina ' s geselecteerd door DPL query: $1",
+	"right-nukedpl": "Nuke-pagina 's met Dynamische Pagina Lijst met query' s"
+}
