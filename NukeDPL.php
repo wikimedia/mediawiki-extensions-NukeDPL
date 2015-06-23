@@ -15,8 +15,6 @@ $wgGroupPermissions['sysop']['nukedpl'] = true;
 
 $wgSpecialPages['NukeDPL'] = 'SpecialNukeDPL';
 
-$wgSpecialPageGroups['NukeDPL'] = 'pagetools';
-
 $wgMessagesDirs['NukeDPL'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['NukeDPL'] = __DIR__ . '/NukeDPL.i18n.php';
 $wgExtensionMessagesFiles['NukeDPLAliases'] = __DIR__ . '/NukeDPL.alias.php';

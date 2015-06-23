@@ -93,4 +93,8 @@ class SpecialNukeDPL extends SpecialPage {
 			$article->doDelete( $reason );
 		}
 	}
+
+	protected function getGroupName() {
+		return 'pagetools';
+	}
 }
