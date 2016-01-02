@@ -67,7 +67,13 @@ class SpecialNukeDPL extends SpecialPage {
 			if ( $page and $page->isKnown() ) {
 				$output->addHTML( '<li>' );
 				$output->addHTML( Xml::element( 'input', array( 'type' => 'checkbox', 'name' => 'ids[]', 'value' => $page->getArticleID(), 'checked' => 'checked' ) ) );
-				$output->addHTML( Linker::makeKnownLinkObj( $page ) );
+				$output->addHTML( Linker::link(
+					$page,
+					null,
+					array(),
+					array(),
+					array( 'known' )
+				) );
 				$output->addHTML( '</li>' );
 			}
 		}
