@@ -6,6 +6,10 @@ class SpecialNukeDPL extends SpecialPage {
 		parent::__construct( 'NukeDPL', 'nukedpl' );
 	}
 
+	public function doesWrites() {
+		return true;
+	}
+
 	function execute( $parser = null ) {
 
 		$user = $this->getUser();
