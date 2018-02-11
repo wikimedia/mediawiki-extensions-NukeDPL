@@ -1,0 +1,34 @@
+{
+	"name": "NukeDPL",
+	"version": "1.5",
+	"author": [
+		"[https://www.mediawiki.org/wiki/User:Nad Nad]",
+		"[https://www.mediawiki.org/wiki/User:Sophivorus Felipe Schenone]"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:NukeDPL",
+	"descriptionmsg": "nukedpl-desc",
+	"type": "specialpage",
+	"AvailableRights": [
+		"nukedpl"
+	],
+	"GroupPermissions": {
+		"sysop": {
+			"nukedpl": true
+		}
+	},
+	"SpecialPages": {
+		"NukeDPL": "SpecialNukeDPL"
+	},
+	"MessagesDirs": {
+		"NukeDPL": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"NukeDPLAliases": "NukeDPL.alias.php"
+	},
+	"AutoloadClasses": {
+		"SpecialNukeDPL": "SpecialNukeDPL.php"
+	},
+	"manifest_version": 1
+}

@@ -36,14 +36,13 @@ class SpecialNukeDPL extends SpecialPage {
 	}
 
 	function queryForm() {
-		global $egNukeDPLDefaultText;
 		$title = $this->getTitle();
 		$output = $this->getOutput();
 
 		$output->addWikiText( $this->msg( 'nukedpl-intro' )->text() );
 
 		$output->addHTML( Xml::element( 'form', array( 'action' => $title->getLocalURL( 'action=submit' ), 'method' => 'post' ), null ) );
-		$output->addHTML( '<textarea name="query" cols="25" rows="30">' . $egNukeDPLDefaultText . '</textarea>' );
+		$output->addHTML( '<textarea name="query" cols="25" rows="30">' . $this->msg( 'nukedpl-defaulttext' )->text() . '</textarea>' );
 		$output->addHTML( Xml::element( 'input', array( 'type' => 'submit', 'value' => $this->msg( 'nukedpl-candidatelist' )->text() ) ) );
 		$output->addHTML( '</form>' );
 	}
