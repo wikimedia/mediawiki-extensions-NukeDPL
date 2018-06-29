@@ -5,51 +5,50 @@
  * @file
  * @ingroup Extensions
  */
-// @codingStandardsIgnoreFile
 
-$specialPageAliases = array();
+$specialPageAliases = [];
 
 /** English (English) */
-$specialPageAliases['en'] = array(
-	'NukeDPL' => array( 'NukeDPL', 'Nuke DPL' ),
-);
+$specialPageAliases['en'] = [
+	'NukeDPL' => [ 'NukeDPL', 'Nuke DPL' ],
+];
 
 /** Arabic (العربية) */
-$specialPageAliases['ar'] = array(
-	'NukeDPL' => array( 'حذف_دي_بي_إل' ),
-);
+$specialPageAliases['ar'] = [
+	'NukeDPL' => [ 'حذف_دي_بي_إل' ],
+];
 
 /** Egyptian Arabic (مصرى) */
-$specialPageAliases['arz'] = array(
-	'NukeDPL' => array( 'حذف_دى_بى_إل' ),
-);
+$specialPageAliases['arz'] = [
+	'NukeDPL' => [ 'حذف_دى_بى_إل' ],
+];
 
 /** German (Deutsch) */
-$specialPageAliases['de'] = array(
-	'NukeDPL' => array( 'Massenlöschung_DPL' ),
-);
+$specialPageAliases['de'] = [
+	'NukeDPL' => [ 'Massenlöschung_DPL' ],
+];
 
 /** Zazaki (Zazaki) */
-$specialPageAliases['diq'] = array(
-	'NukeDPL' => array( 'PıperneDPL', 'Pıperne_DPL' ),
-);
+$specialPageAliases['diq'] = [
+	'NukeDPL' => [ 'PıperneDPL', 'Pıperne_DPL' ],
+];
 
 /** Korean (한국어) */
-$specialPageAliases['ko'] = array(
-	'NukeDPL' => array( 'DPL대량삭제', 'DPL_대량삭제' ),
-);
+$specialPageAliases['ko'] = [
+	'NukeDPL' => [ 'DPL대량삭제', 'DPL_대량삭제' ],
+];
 
 /** Macedonian (македонски) */
-$specialPageAliases['mk'] = array(
-	'NukeDPL' => array( 'МасовноБришењеОдДинамичкиСписок' ),
-);
+$specialPageAliases['mk'] = [
+	'NukeDPL' => [ 'МасовноБришењеОдДинамичкиСписок' ],
+];
 
 /** Simplified Chinese (中文（简体）‎) */
-$specialPageAliases['zh-hans'] = array(
-	'NukeDPL' => array( '大量删除DPL' ),
-);
+$specialPageAliases['zh-hans'] = [
+	'NukeDPL' => [ '大量删除DPL' ],
+];
 
 /** Traditional Chinese (中文（繁體）‎) */
-$specialPageAliases['zh-hant'] = array(
-	'NukeDPL' => array( '大量刪除_DPL' ),
-);
+$specialPageAliases['zh-hant'] = [
+	'NukeDPL' => [ '大量刪除_DPL' ],
+];

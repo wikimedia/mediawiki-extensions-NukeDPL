@@ -11,7 +11,6 @@ class SpecialNukeDPL extends SpecialPage {
 	}
 
 	function execute( $parser = null ) {
-
 		$user = $this->getUser();
 		if ( !$this->userCanExecute( $user ) ) {
 			$this->displayRestrictionError();
@@ -41,9 +40,9 @@ class SpecialNukeDPL extends SpecialPage {
 
 		$output->addWikiText( $this->msg( 'nukedpl-intro' )->text() );
 
-		$output->addHTML( Xml::element( 'form', array( 'action' => $title->getLocalURL( 'action=submit' ), 'method' => 'post' ), null ) );
+		$output->addHTML( Xml::element( 'form', [ 'action' => $title->getLocalURL( 'action=submit' ), 'method' => 'post' ], null ) );
 		$output->addHTML( '<textarea name="query" cols="25" rows="30">' . $this->msg( 'nukedpl-defaulttext' )->text() . '</textarea>' );
-		$output->addHTML( Xml::element( 'input', array( 'type' => 'submit', 'value' => $this->msg( 'nukedpl-candidatelist' )->text() ) ) );
+		$output->addHTML( Xml::element( 'input', [ 'type' => 'submit', 'value' => $this->msg( 'nukedpl-candidatelist' )->text() ] ) );
 		$output->addHTML( '</form>' );
 	}
 
@@ -60,28 +59,28 @@ class SpecialNukeDPL extends SpecialPage {
 
 		$output->addWikiText( $this->msg( 'nukedpl-list', $count, $query )->text() );
 
-		$output->addHTML( Xml::element( 'form', array( 'action' => $title->getLocalURL( 'action=delete' ), 'method' => 'post' ), null ) );
-		$output->addHTML( Xml::element( 'input', array( 'type' => 'submit', 'value' => $this->msg( 'nukedpl-nuke' )->text() ) ) );
+		$output->addHTML( Xml::element( 'form', [ 'action' => $title->getLocalURL( 'action=delete' ), 'method' => 'post' ], null ) );
+		$output->addHTML( Xml::element( 'input', [ 'type' => 'submit', 'value' => $this->msg( 'nukedpl-nuke' )->text() ] ) );
 		$output->addHTML( '<div>' . $this->msg( 'deletecomment' )->escaped() . '</div>' );
-		$output->addHTML( Xml::element( 'input', array( 'name' => 'reason', 'value' => $reason, 'size' => 60 ) ) );
+		$output->addHTML( Xml::element( 'input', [ 'name' => 'reason', 'value' => $reason, 'size' => 60 ] ) );
 		$output->addHTML( '<ol>' );
 		foreach ( $pages as $page ) {
 			$page = Title::newFromText( $page );
 			if ( $page and $page->isKnown() ) {
 				$output->addHTML( '<li>' );
-				$output->addHTML( Xml::element( 'input', array( 'type' => 'checkbox', 'name' => 'ids[]', 'value' => $page->getArticleID(), 'checked' => 'checked' ) ) );
+				$output->addHTML( Xml::element( 'input', [ 'type' => 'checkbox', 'name' => 'ids[]', 'value' => $page->getArticleID(), 'checked' => 'checked' ] ) );
 				$output->addHTML( Linker::link(
 					$page,
 					null,
-					array(),
-					array(),
-					array( 'known' )
+					[],
+					[],
+					[ 'known' ]
 				) );
 				$output->addHTML( '</li>' );
 			}
 		}
 		$output->addHTML( '</ol>' );
-		$output->addHTML( Xml::element( 'input', array( 'type' => 'submit', 'value' => $this->msg( 'nukedpl-nuke' )->text() ) ) );
+		$output->addHTML( Xml::element( 'input', [ 'type' => 'submit', 'value' => $this->msg( 'nukedpl-nuke' )->text() ] ) );
 		$output->addHTML( '</form>' );
 	}
 
@@ -89,11 +88,11 @@ class SpecialNukeDPL extends SpecialPage {
 		global $wgParser;
 		$user = $this->getUser();
 		$title = $this->getTitle();
-		$query = trim( $query ) . PHP_EOL . "format=,$$$%PAGE%$$$,,"; //Enclose each title with $$$
+		$query = trim( $query ) . PHP_EOL . "format=,$$$%PAGE%$$$,,"; // Enclose each title with $$$
 		$parserOptions = ParserOptions::newFromUser( $user );
 		$parserOutput = $wgParser->parse( '<dpl>' . $query . '</dpl>', $title, $parserOptions, false, true );
-		preg_match_all( '|\$\$\$(.+)\$\$\$|U', $parserOutput->getText(), $matches ); //Extract the titles from the output
-		return $matches[1]; //Return an array of titles
+		preg_match_all( '|\$\$\$(.+)\$\$\$|U', $parserOutput->getText(), $matches ); // Extract the titles from the output
+		return $matches[1]; // Return an array of titles
 	}
 
 	function doDelete( $ids, $reason ) {
