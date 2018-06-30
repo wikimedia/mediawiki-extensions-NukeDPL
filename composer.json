@@ -7,6 +7,8 @@
 		"mediawiki/mediawiki-phan-config": "0.3.0"
 	},
 	"scripts": {
+			"seccheck": "seccheck-mwext",
+			"seccheck-fast": "seccheck-fast-mwext",
 		"test": [
 			"parallel-lint . --exclude vendor --exclude node_modules",
 			"minus-x check .",
@@ -16,5 +18,8 @@
 			"minus-x fix .",
 			"phpcbf"
 		]
+	},
+	"extra": {
+		"phan-taint-check-plugin": "1.2.0"
 	}
 }

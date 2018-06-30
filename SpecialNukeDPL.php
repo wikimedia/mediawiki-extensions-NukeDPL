@@ -41,7 +41,7 @@ class SpecialNukeDPL extends SpecialPage {
 		$output->addWikiText( $this->msg( 'nukedpl-intro' )->text() );
 
 		$output->addHTML( Xml::element( 'form', [ 'action' => $title->getLocalURL( 'action=submit' ), 'method' => 'post' ], null ) );
-		$output->addHTML( '<textarea name="query" cols="25" rows="30">' . $this->msg( 'nukedpl-defaulttext' )->text() . '</textarea>' );
+		$output->addHTML( '<textarea name="query" cols="25" rows="30">' . $this->msg( 'nukedpl-defaulttext' )->escaped() . '</textarea>' );
 		$output->addHTML( Xml::element( 'input', [ 'type' => 'submit', 'value' => $this->msg( 'nukedpl-candidatelist' )->text() ] ) );
 		$output->addHTML( '</form>' );
 	}
