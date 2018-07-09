@@ -7,8 +7,8 @@
 		"mediawiki/mediawiki-phan-config": "0.3.0"
 	},
 	"scripts": {
-			"seccheck": "seccheck-mwext",
-			"seccheck-fast": "seccheck-fast-mwext",
+		"seccheck": "seccheck-mwext",
+		"seccheck-fast": "seccheck-fast-mwext",
 		"test": [
 			"parallel-lint . --exclude vendor --exclude node_modules",
 			"minus-x check .",
