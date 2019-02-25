@@ -43,6 +43,16 @@ $specialPageAliases['mk'] = [
 	'NukeDPL' => [ 'МасовноБришењеОдДинамичкиСписок' ],
 ];
 
+/** Serbian Cyrillic (српски (ћирилица)) */
+$specialPageAliases['sr-ec'] = [
+	'NukeDPL' => [ 'Масовно_брисање_са_динамичког_списка' ],
+];
+
+/** Serbian Latin (srpski (latinica)) */
+$specialPageAliases['sr-el'] = [
+	'NukeDPL' => [ 'Masovno_brisanje_sa_dinamičkog_spiska' ],
+];
+
 /** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = [
 	'NukeDPL' => [ '大量删除DPL' ],
