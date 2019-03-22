@@ -8,6 +8,7 @@
 	"url": "https://www.mediawiki.org/wiki/Extension:NukeDPL",
 	"descriptionmsg": "nukedpl-desc",
 	"type": "specialpage",
+	"license-name": "GPL-3.0-or-later",
 	"AvailableRights": [
 		"nukedpl"
 	],
