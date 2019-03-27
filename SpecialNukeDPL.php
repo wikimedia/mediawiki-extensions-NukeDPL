@@ -35,10 +35,10 @@ class SpecialNukeDPL extends SpecialPage {
 	}
 
 	function queryForm() {
-		$title = $this->getTitle();
+		$title = $this->getPageTitle();
 		$output = $this->getOutput();
 
-		$output->addWikiText( $this->msg( 'nukedpl-intro' )->text() );
+		$output->addWikiTextAsInterface( $this->msg( 'nukedpl-intro' )->text() );
 
 		$output->addHTML( Xml::element( 'form', [ 'action' => $title->getLocalURL( 'action=submit' ), 'method' => 'post' ], null ) );
 		$output->addHTML( '<textarea name="query" cols="25" rows="30">' . $this->msg( 'nukedpl-defaulttext' )->escaped() . '</textarea>' );
@@ -47,17 +47,17 @@ class SpecialNukeDPL extends SpecialPage {
 	}
 
 	function deleteForm( $query, $reason ) {
-		$title = $this->getTitle();
+		$title = $this->getPageTitle();
 		$output = $this->getOutput();
 
 		$pages = $this->getPages( $query );
 		$count = count( $pages );
 		if ( $count == 0 ) {
-			$output->addWikiText( $this->msg( 'nukedpl-nopages', $query )->text() );
+			$output->addWikiTextAsInterface( $this->msg( 'nukedpl-nopages', $query )->text() );
 			return $this->queryForm();
 		}
 
-		$output->addWikiText( $this->msg( 'nukedpl-list', $count, $query )->text() );
+		$output->addWikiTextAsInterface( $this->msg( 'nukedpl-list', $count, $query )->text() );
 
 		$output->addHTML( Xml::element( 'form', [ 'action' => $title->getLocalURL( 'action=delete' ), 'method' => 'post' ], null ) );
 		$output->addHTML( Xml::element( 'input', [ 'type' => 'submit', 'value' => $this->msg( 'nukedpl-nuke' )->text() ] ) );
@@ -87,7 +87,7 @@ class SpecialNukeDPL extends SpecialPage {
 	function getPages( $query ) {
 		global $wgParser;
 		$user = $this->getUser();
-		$title = $this->getTitle();
+		$title = $this->getPageTitle();
 		$query = trim( $query ) . PHP_EOL . "format=,$$$%PAGE%$$$,,"; // Enclose each title with $$$
 		$parserOptions = ParserOptions::newFromUser( $user );
 		$parserOutput = $wgParser->parse( '<dpl>' . $query . '</dpl>', $title, $parserOptions, false, true );
