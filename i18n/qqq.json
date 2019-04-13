@@ -14,5 +14,6 @@
 	"nukedpl-nuke": "Text in the button to delete the selected pages.\n\nAlso used in:\n* {{msg-mw|Nukedpl-list}}.",
 	"nukedpl-list": "Text preceding the list of pages to be deleted.\n\nRefers to {{msg-mw|Nukedpl-nuke}}.\n\nParameters:\n* $1 - number of pages\n* $2 - DPL query string",
 	"nukedpl-defaultreason": "Default reason associated with the deleted pages. Parameters:\n* $1 - DPL query string",
+	"action-nukedpl": "{{doc-action|nukedpl}}",
 	"right-nukedpl": "{{doc-right|nukedpl}}"
 }

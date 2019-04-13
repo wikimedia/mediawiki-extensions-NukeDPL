@@ -11,5 +11,6 @@
 	"nukedpl-nuke": "Nuke!",
 	"nukedpl-list": "The following {{PLURAL:$1|page was|pages were}} selected by DPL query: <code>$2</code>\n\nHit \"{{int:nukedpl-nuke}}\" to delete {{PLURAL:$1|it|them}}.",
 	"nukedpl-defaultreason": "Mass removal of pages selected by DPL query: $1",
+	"action-nukedpl": "nuke pages by Dynamic Page List queries",
 	"right-nukedpl": "Nuke pages by Dynamic Page List queries"
 }
