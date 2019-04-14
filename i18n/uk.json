@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Andriykopanytsia"
+			"Andriykopanytsia",
+			"Vlad5250"
 		]
 	},
 	"nukedpl": "Масове видалення через DPL запит",
@@ -12,5 +13,6 @@
 	"nukedpl-nuke": "Знищити!",
 	"nukedpl-list": "{{PLURAL:$1|Наступна сторінка була вибрана|Наступні сторінки були обрані}} DPL-запитом: <code>$2</code>\nНатисніть «{{int:nukedpl-nuke}}», щоб видалити {{PLURAL:$1|її|їх}}.",
 	"nukedpl-defaultreason": "Масове видалення сторінок, вибраних DPL запитом: $1",
+	"action-nukedpl": "вилучення сторінок за допомогою динамічного списку сторінок (DPL)",
 	"right-nukedpl": "Знищити сторінки за допомогою динамічного списку сторінок (DPL)?"
 }
