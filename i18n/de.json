@@ -12,5 +12,6 @@
 	"nukedpl-nuke": "Löschen!",
 	"nukedpl-list": "Die {{PLURAL:$1|folgende Seite wurde|folgenden Seiten wurden}} gefunden. DPL-Abfrage: <code>$2</code>\n\n„{{int:nukedpl-nuke}}“ drücken, um diese zu löschen.",
 	"nukedpl-defaultreason": "Massenlöschung von Seiten mittels DPL-Query: $1",
+	"action-nukedpl": "massenhaft Seiten mithilfe von „Dynamic Page List“-Abfragen zu löschen",
 	"right-nukedpl": "Massenlöschung von Seiten mithilfe „Dynamic Page List“-Abfragen"
 }
