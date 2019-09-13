@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Gomoko"
+			"Gomoko",
+			"Thibaut120094"
 		]
 	},
 	"nukedpl": "Suppression en masse par requête DPL",
@@ -10,7 +11,7 @@
 	"nukedpl-candidatelist": "Afficher la liste des candidats",
 	"nukedpl-nopages": "Aucune page à supprimer en utilisant la requête DPL : <code>$1</code>",
 	"nukedpl-nuke": "Supprimer !",
-	"nukedpl-list": "{{PLURAL:$1|La page suivante sera sélectionnée|Les pages suivantes seront sélectionnées}} par la requête DPL : <code>$2</code>\n\nAppuyez sur « {{int:nukedpl-nuke}} » pour {{PLURAL:$1|la|les}} supprimer.",
+	"nukedpl-list": "{{PLURAL:$1|La page suivante sera sélectionnée|Les pages suivantes seront sélectionnées}} par la requête DPL : <code>$2</code>\n\nAppuyez sur « {{int:nukedpl-nuke}} » pour {{PLURAL:$1|la|les}} supprimer.",
 	"nukedpl-defaultreason": "Suppression en masse de pages sélectionnées par la requête DPL : $1",
 	"action-nukedpl": "faire exploser les pages par des requêtes de Dynamic Page List",
 	"right-nukedpl": "Supprimer les pages par des requêtes de Liste de Pages Dynamique"

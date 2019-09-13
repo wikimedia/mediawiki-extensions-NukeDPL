@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Railfail536"
+			"Railfail536",
+			"Rail"
 		]
 	},
 	"nukedpl": "Masowe usuwanie z zapytania DPL",
@@ -12,5 +13,6 @@
 	"nukedpl-nuke": "Usuń!",
 	"nukedpl-list": "{{PLURAL:$1|Poniższa strona została znaleziona|Poniższe strony zostały znalezione}} w zapytaniu DPL: <code>$2</code>\n\nKliknij przycisk „{{int:nukedpl-nuke}}” aby {{PLURAL:$1|ją|je}} usunąć.",
 	"nukedpl-defaultreason": "Masowe usuwanie stron znalezionych w zapytaniu DPL: $1",
+	"action-nukedpl": "masowego usuwania stron przy użyciu zapytań Dynamic Page List",
 	"right-nukedpl": "Masowe usuwanie stron przy użyciu zapytań Dynamic Page List"
 }
