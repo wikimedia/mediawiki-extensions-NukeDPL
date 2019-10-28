@@ -12,5 +12,6 @@
 	"nukedpl-nuke": "Slett!",
 	"nukedpl-list": "Følgende {{PLURAL:$1|side|sider}} ble valgt av DPL-spørringen: <code>$2</code>\n\nTrykk «{{int:nukedpl-nuke}}» for å slette {{PLURAL:$1|den|dem}}.",
 	"nukedpl-defaultreason": "Massefjerning av sider valgt av DPL-spørring: $1",
+	"action-nukedpl": "masseslette sider med Dynamic Page List-spørringer",
 	"right-nukedpl": "Masseslette sider med Dynamic Page List-spørringer"
 }
