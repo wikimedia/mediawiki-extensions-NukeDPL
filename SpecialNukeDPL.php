@@ -1,5 +1,7 @@
 <?php
 
+use MediaWiki\MediaWikiServices;
+
 class SpecialNukeDPL extends SpecialPage {
 
 	function __construct() {
@@ -41,7 +43,8 @@ class SpecialNukeDPL extends SpecialPage {
 		$output->addWikiTextAsInterface( $this->msg( 'nukedpl-intro' )->text() );
 
 		$output->addHTML( Xml::element( 'form', [ 'action' => $title->getLocalURL( 'action=submit' ), 'method' => 'post' ], null ) );
-		$output->addHTML( '<textarea name="query" cols="25" rows="30">' . $this->msg( 'nukedpl-defaulttext' )->escaped() . '</textarea>' );
+		$output->addHTML( Xml::element( 'textarea', [ 'name' => 'query', 'style' => 'width: 100%; height: 50em;' ], $this->msg( 'nukedpl-defaulttext' )->text() ) );
+		$output->addHTML( Xml::element( 'br' ) );
 		$output->addHTML( Xml::element( 'input', [ 'type' => 'submit', 'value' => $this->msg( 'nukedpl-candidatelist' )->text() ] ) );
 		$output->addHTML( '</form>' );
 	}
@@ -61,7 +64,7 @@ class SpecialNukeDPL extends SpecialPage {
 
 		$output->addHTML( Xml::element( 'form', [ 'action' => $title->getLocalURL( 'action=delete' ), 'method' => 'post' ], null ) );
 		$output->addHTML( Xml::element( 'input', [ 'type' => 'submit', 'value' => $this->msg( 'nukedpl-nuke' )->text() ] ) );
-		$output->addHTML( '<div>' . $this->msg( 'deletecomment' )->escaped() . '</div>' );
+		$output->addHTML( Xml::element( 'div', [], $this->msg( 'deletecomment' )->text() ) );
 		$output->addHTML( Xml::element( 'input', [ 'name' => 'reason', 'value' => $reason, 'size' => 60 ] ) );
 		$output->addHTML( '<ol>' );
 		foreach ( $pages as $page ) {
@@ -69,13 +72,7 @@ class SpecialNukeDPL extends SpecialPage {
 			if ( $page and $page->isKnown() ) {
 				$output->addHTML( '<li>' );
 				$output->addHTML( Xml::element( 'input', [ 'type' => 'checkbox', 'name' => 'ids[]', 'value' => $page->getArticleID(), 'checked' => 'checked' ] ) );
-				$output->addHTML( Linker::link(
-					$page,
-					null,
-					[],
-					[],
-					[ 'known' ]
-				) );
+				$output->addHTML( Linker::linkKnown( $page ) );
 				$output->addHTML( '</li>' );
 			}
 		}
@@ -85,12 +82,12 @@ class SpecialNukeDPL extends SpecialPage {
 	}
 
 	function getPages( $query ) {
-		global $wgParser;
 		$user = $this->getUser();
 		$title = $this->getPageTitle();
 		$query = trim( $query ) . PHP_EOL . "format=,$$$%PAGE%$$$,,"; // Enclose each title with $$$
+		$parser = MediaWikiServices::getInstance()->getParser();
 		$parserOptions = ParserOptions::newFromUser( $user );
-		$parserOutput = $wgParser->parse( '<dpl>' . $query . '</dpl>', $title, $parserOptions, false, true );
+		$parserOutput = $parser->parse( '<dpl>' . $query . '</dpl>', $title, $parserOptions, false, true );
 		preg_match_all( '|\$\$\$(.+)\$\$\$|U', $parserOutput->getText(), $matches ); // Extract the titles from the output
 		return $matches[1]; // Return an array of titles
 	}
