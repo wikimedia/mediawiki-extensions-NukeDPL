@@ -2,9 +2,9 @@
 	"@metadata": {
 		"authors": [
 			"Esketti",
+			"Mainframe98",
 			"Siebrand",
-			"Sjoerddebruin",
-			"Mainframe98"
+			"Sjoerddebruin"
 		]
 	},
 	"nukedpl": "Massaal verwijderen per DPL query",
