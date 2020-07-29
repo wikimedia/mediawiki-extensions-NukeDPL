@@ -13,5 +13,6 @@
 	"nukedpl-nuke": "一括削除!",
 	"nukedpl-list": "DPL クエリによって以下の{{PLURAL:$1|ページ}}が選択されました: <code>$2</code>\n\n{{PLURAL:$1|このページ|これらのページ}}を削除するには「{{int:nukedpl-nuke}}」を押してください。",
 	"nukedpl-defaultreason": "DPLクエリで選択したページを一括削除: $1",
+	"action-nukedpl": "Dynamic Page List クエリによるページの一括削除",
 	"right-nukedpl": "Dynamic Page List クエリによってページを一括削除"
 }
