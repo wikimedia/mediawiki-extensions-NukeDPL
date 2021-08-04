@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Andriykopanytsia",
+			"DDPAT",
 			"Piramidion",
 			"Vlad5250"
 		]
@@ -12,7 +13,7 @@
 	"nukedpl-candidatelist": "Перегляд списку кандидатів",
 	"nukedpl-nopages": "Немає сторінок для видалення з допомогою DPL-запиту: <code>$1</code>",
 	"nukedpl-nuke": "Знищити!",
-	"nukedpl-list": "{{PLURAL:$1|Наступна сторінка була вибрана|Наступні сторінки були обрані}} DPL-запитом: <code>$2</code>\nНатисніть «{{int:nukedpl-nuke}}», щоб видалити {{PLURAL:$1|її|їх}}.",
+	"nukedpl-list": "{{PLURAL:$1|Така сторінка була вибрана|Такі сторінки були обрані}} DPL-запитом: <code>$2</code>\nНатисніть «{{int:nukedpl-nuke}}», щоб видалити {{PLURAL:$1|її|їх}}.",
 	"nukedpl-defaultreason": "Масове видалення сторінок, вибраних DPL запитом: $1",
 	"action-nukedpl": "масове вилучення сторінок за допомогою динамічного списку сторінок (DPL)",
 	"right-nukedpl": "Масове вилучення сторінок за допомогою динамічного списку сторінок (DPL)?"
