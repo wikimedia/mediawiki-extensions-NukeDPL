@@ -29,7 +29,7 @@
 		"NukeDPLAliases": "NukeDPL.alias.php"
 	},
 	"AutoloadClasses": {
-		"SpecialNukeDPL": "SpecialNukeDPL.php"
+		"SpecialNukeDPL": "includes/SpecialNukeDPL.php"
 	},
 	"manifest_version": 1
 }
