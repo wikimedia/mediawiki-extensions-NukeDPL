@@ -9,6 +9,9 @@
 	"descriptionmsg": "nukedpl-desc",
 	"type": "specialpage",
 	"license-name": "GPL-3.0-or-later",
+	"requires": {
+		"MediaWiki": ">= 1.32.0"
+	},
 	"AvailableRights": [
 		"nukedpl"
 	],
