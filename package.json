@@ -1,4 +1,5 @@
 {
+	"name": "NukeDPL",
 	"private": true,
 	"scripts": {
 		"test": "grunt test"
