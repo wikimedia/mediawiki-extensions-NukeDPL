@@ -5,5 +5,5 @@
 		]
 	},
 	"nukedpl-intro": "To orodje omogoča masovno brisanje strani, izbranih s poizvedbo DPL.\n\nDa ustvarite seznam naslovov za brisanje, vnesite spodnjo poizvedbo.\n* Naslove lahko pred brisanjem posamezno odstranite.\n* Upoštevajte, da se pri naslovih strani upoštevajo velike in male črke.\n* Poizvedb ne smejo obdajati nobene oznake DPL ali oklepaji.\n* Za informacije o pomenu parametrov glejte [http://semeb.com/dpldemo/index.php?title=DPL:Manual Priročnik za DPL].",
-	"right-nukedpl": "Masovno izbrišite strani s pomočjo poizvedbe »Dynamic Page List«"
+	"right-nukedpl": "Množični izbris strani s poizvedbami Dinamičnega seznama strani"
 }
