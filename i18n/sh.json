@@ -8,6 +8,7 @@
 	"nukedpl-desc": "Dodaje [[Special:NukeDPL|posebnu stranicu]] za masovno brisanje po DPL-upitu",
 	"nukedpl-candidatelist": "Pogl. spisak kadidata",
 	"nukedpl-nopages": "Nema stranica za brisanje po DPL-upitu: <code>$1</code>",
+	"nukedpl-list": "DPL upitom {{PLURAL:$1|odabrana je sljedeća stranica|odabrane su sljedeće stranice}}: <code>$2</code>\n\nPritisnite \"{{int:nukedpl-nuke}}\" da obrišete {{PLURAL:$1|je|njih}}.",
 	"nukedpl-defaultreason": "Masovno uklanjanje stranica odabranih DPL upitom: $1",
 	"action-nukedpl": "masovno uklanjanje stranica po upitima Dinamičkog popisa stranica",
 	"right-nukedpl": "Masovno uklanjanje stranica po upitima Dinamičkog popisa stranica"
