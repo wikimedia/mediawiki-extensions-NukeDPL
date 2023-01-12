@@ -4,6 +4,14 @@
 			"Eleassar"
 		]
 	},
+	"nukedpl": "Množični izbris s poizvedbo DPL",
+	"nukedpl-desc": "Doda [[Special:NukeDPL|posebno stran]] za množični izbris s poizvedbo DPL",
 	"nukedpl-intro": "To orodje omogoča masovno brisanje strani, izbranih s poizvedbo DPL.\n\nDa ustvarite seznam naslovov za brisanje, vnesite spodnjo poizvedbo.\n* Naslove lahko pred brisanjem posamezno odstranite.\n* Upoštevajte, da se pri naslovih strani upoštevajo velike in male črke.\n* Poizvedb ne smejo obdajati nobene oznake DPL ali oklepaji.\n* Za informacije o pomenu parametrov glejte [http://semeb.com/dpldemo/index.php?title=DPL:Manual Priročnik za DPL].",
+	"nukedpl-candidatelist": "Ogled seznama kandidatov",
+	"nukedpl-nopages": "Ni strani za izbris s poizvedbo DPL: <code>$1</code>",
+	"nukedpl-nuke": "Izkorenini!",
+	"nukedpl-list": "Poizvedba DPL je izbrala {{PLURAL:$1|naslednjo stran|naslednji strani|naslednje strani}}: <code>$2</code>\n\nZa {{PLURAL:$1|njen|njun|njihov}} izbris pritisnite »{{int:nukedpl-nuke}}«.",
+	"nukedpl-defaultreason": "Množična odstranitev strani, izbranih s poizvedbo DPL: $1",
+	"action-nukedpl": "izkoreninjanje strani s poizvedbami Dynamic Page List",
 	"right-nukedpl": "Množični izbris strani s poizvedbami Dinamičnega seznama strani"
 }
