@@ -1,8 +1,18 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Guycn2"
 		]
 	},
+	"nukedpl": "מחיקה המונית לפי שאילתת DPL",
+	"nukedpl-desc": "הוספת [[Special:NukeDPL|דף מיוחד]] למחיקה המונית על־ידי שאילתת DPL",
+	"nukedpl-intro": "הכלי הזה מאפשר מחיקה המונית של דפים שנבחרו על־ידי שאילתת DPL.\n\nיש להזין שאילתה למטה כדי ליצור רשימה של כותרות למחיקה.\n* ניתן להסיר כותרות באופן פרטני לפני המחיקה.\n* יש לזכור שכותרות הדפים תלויות רישיות.\n* שאילתות לא אמורות להיות מוקפות בתגי DPL או סוגריים כלשהם.\n* למידע על משמעויות הפרמטרים, יש לעיין ב[http://semeb.com/dpldemo/index.php?title=DPL:Manual מדירך DPL].",
+	"nukedpl-candidatelist": "צפייה ברשימת המועמדים",
+	"nukedpl-nopages": "אין דפים למחיקה באמצעות שאילתת DPL: <code dir=\"ltr\">$1</code>",
+	"nukedpl-nuke": "מחיקה המונית!",
+	"nukedpl-list": "{{PLURAL:$1|הדף הבא נבחר|הדפים הבאים נבחרו}} על־ידי שאילתת DPL: <code dir=\"ltr\">$2</code> \n\nיש ללחוץ על \"{{int:nukedpl-nuke}}\" כדי למחוק {{PLURAL:$1|אותו|אותם}}.",
+	"nukedpl-defaultreason": "הסרה המונית של דפים שנבחרו על־ידי שאילתת DPL: <span dir=\"ltr\">$1</span>",
+	"action-nukedpl": "למחוק דפים באמצעות שאילתות Dynamic Page List",
 	"right-nukedpl": "מחיקה מרובה של דפים באמצעות רשימות דינמיות"
 }
