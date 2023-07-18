@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nokeoo"
+		]
+	},
+	"nukedpl": "Masinis trynimas pagal DPL užklausą",
+	"nukedpl-desc": "Prideda [[Special:NukeDPL|specialų puslapį]] masiniam trynimui pagal DPL užklausą",
+	"nukedpl-intro": "Šis įrankis leidžia masiškai trinti puslapius, pasirinktus pagal DPL užklausą.\n\nĮveskite užklausą toliau, kad sugeneruotumėte norimų ištrinti pavadinimų sąrašą.\n* Prieš ištrinant pavadinimus galima pašalinti individualiai.\n* Atsiminkite, kad puslapių pavadinimuose skiriamos didžiosios ir mažosios raidės.\n* Užklausos neturi būti apsuptos jokių DPL žymų ar skliaustų.\n* Norėdami gauti informacijos apie parametrų reikšmes žiūrėkite [http://semeb.com/dpldemo/index.php?title=DPL:Manual DPL vadovą].",
+	"nukedpl-candidatelist": "Žiūrėti kandidatų sąrašą",
+	"nukedpl-nopages": "Nėra puslapių, trynimui naudojant DPL užklausą: <code>$1</code>",
+	"nukedpl-nuke": "Naikinti!",
+	"nukedpl-list": "{{PLURAL:$1|Šis puslapis buvo parinktas|Šie puslapiai buvo parinkti}} pagal DPL užklausą: <code>$2</code> \n\nPaspauskite „{{int:nukedpl-nuke}}“, kad ištrintumėte {{PLURAL:$1|jį|juos}}.",
+	"nukedpl-defaultreason": "Masinis puslapių, parinktų pagal DPL užklausą, pašalinimas: $1"
+}
