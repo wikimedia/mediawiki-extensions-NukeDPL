@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Fitoschido"
+			"Fitoschido",
+			"No se"
 		]
 	},
+	"nukedpl-intro": "Esta herramienta permite la eliminación masiva de páginas seleccionadas mediante una consulta DPL.\n\nIngrese una consulta a continuación para generar una lista de títulos para eliminar.\n* Los títulos se pueden remover individualmente antes de eliminarlos.\n* Recuerde, los títulos de las páginas distinguen entre mayúsculas y minúsculas.\n* Las consultas no deben estar rodeadas por etiquetas o llaves DPL.\n* Para obtener información sobre los significados de los parámetros, consulte el [http://semeb.com/dpldemo/index.php?title=DPL:Manual Manual DPL].",
 	"nukedpl-candidatelist": "Ver lista de candidatos",
 	"nukedpl-defaultreason": "Borrado en masa de páginas seleccionadas por consulta de DPL: $1"
 }
