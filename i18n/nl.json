@@ -16,5 +16,6 @@
 	"nukedpl-nuke": "Weg ermee!",
 	"nukedpl-list": "De volgende {{PLURAL:$1|pagina|pagina's}} zijn geselecteerd door de DPL query: <code>$2</code>\n\nKlik op \"{{int:nukedpl-nuke}}\" om {{PLURAL:$1|deze}} te verwijderen.",
 	"nukedpl-defaultreason": "Massaal verwijderen van pagina's geselecteerd met DPL query: $1",
+	"action-nukedpl": "massaal pagina’s te verwijderen met Dynamic Page List queries",
 	"right-nukedpl": "Massaal pagina's verwijderen per Dynamic Page List queries"
 }
