@@ -5,13 +5,13 @@
 			"CiphriusKane"
 		]
 	},
-	"nukedpl": "Mass delyte bi the DPL querie",
-	"nukedpl-desc": "Eiks ae [[Special:NukeDPL|byordiair page]] fer the mass delytion bi the DPL querie",
+	"nukedpl": "Mass delete bi the DPL query",
+	"nukedpl-desc": "Eiks ae [[Special:NukeDPL|byordiair page]] fur the mass deletion bi the DPL query",
 	"nukedpl-intro": "This tuil permits mass deletions o pages selectit bi ae DPL query.\n\nEnter ae query ablo tae generate ae leet o titles tae delete.\n* Titles can be idividually remuived afore deletin.\n* Mynd, page titles is case-sensitive.\n* Queries sudnae be suroondit bi ony DPL tags or braces.\n* Fur information anent the parameter meanins, see the [http://semeb.com/dpldemo/index.php?title=DPL:Manual DPL Manual].",
 	"nukedpl-candidatelist": "See the candidate leet",
 	"nukedpl-nopages": "Nae pages tae delete uisin the DPL query: <code>$1</code>",
 	"nukedpl-nuke": "Nuke!",
-	"nukedpl-list": "The follaein {{PLURAL:$1|page wis|pages were}} selectit bi the DPL querie: <code>$2</code>\n\nHit \"{{int:nukedpl-nuke}}\" tae delyte {{PLURAL:$1|it|thaim}}.",
+	"nukedpl-list": "The follaein {{PLURAL:$1|page wis|pages war}} selectit bi the DPL query: <code>$2</code>\n\nHit \"{{int:nukedpl-nuke}}\" tae delete {{PLURAL:$1|it|thaim}}.",
 	"nukedpl-defaultreason": "Mass remuival o pages selectit bi ae DPL querie: $1",
 	"right-nukedpl": "Nuke pages bi the Dynameec Page Leet queries"
 }
