@@ -93,9 +93,12 @@ class SpecialNukeDPL extends SpecialPage {
 	}
 
 	function doDelete( $ids, $reason ) {
+		$services = MediaWikiServices::getInstance();
 		foreach ( $ids as $id ) {
-			$article = Article::newFromID( $id );
-			$article->doDelete( $reason );
+			$wikiPage = $services->getWikiPageFactory()->newFromID( $id );
+			$deletePage = $services->getDeletePageFactory()
+				->newDeletePage( $wikiPage, $this->getUser() );
+			$deletePage->deleteIfAllowed( $reason );
 		}
 	}
 
