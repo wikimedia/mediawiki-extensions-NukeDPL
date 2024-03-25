@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"Anterdc99"
 		]
 	},
 	"nukedpl": "通过DPL查询大量删除",
@@ -12,5 +13,6 @@
 	"nukedpl-nuke": "大量删除！",
 	"nukedpl-list": "以下$1个页面已被DPL查询选中：<code>$2</code>\n\n输入“{{int:nukedpl-nuke}}”以将其删除。",
 	"nukedpl-defaultreason": "已选择通过DPL查询大量移除的页面：$1",
+	"action-nukedpl": "通过动态页面列表（DPL）查询大量删除页面",
 	"right-nukedpl": "通过动态页面列表（DPL）查询大量删除页面"
 }
