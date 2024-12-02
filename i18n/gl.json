@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Elisardojm"
+			"Elisardojm",
+			"Toliño"
 		]
 	},
 	"nukedpl": "Borrado masivo por petición LPD",
@@ -12,5 +13,6 @@
 	"nukedpl-nuke": "Suprimir!",
 	"nukedpl-list": "{{PLURAL:$1|A seguinte páxina foi|as seguintes páxinas foron}} seleccionadas pola consulta DPL: <code>$2</code>\n\nPrema \"{{int:nukedpl-nuke}}\" para  {{PLURAL:$1|borrala|borralas}}.",
 	"nukedpl-defaultreason": "Borrado masivo de páxinas seleccionadas pola petición LPD: $1",
+	"action-nukedpl": "borrar páxinas por peticións de Lista de Páxinas Dinámica",
 	"right-nukedpl": "Borrar páxinas por peticións de Lista de Páxinas Dinámica"
 }
