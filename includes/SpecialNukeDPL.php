@@ -86,11 +86,17 @@ class SpecialNukeDPL extends SpecialPage {
 	function getPages( $query ) {
 		$user = $this->getUser();
 		$title = $this->getPageTitle();
+		$intersectionQuery = trim( $query ) . PHP_EOL . "mode=none";
 		$query = trim( $query ) . PHP_EOL . "format=,$$$%PAGE%$$$,,"; // Enclose each title with $$$
 		$parser = MediaWikiServices::getInstance()->getParser();
 		$parserOptions = ParserOptions::newFromUser( $user );
-		$parserOutput = $parser->parse( '<dpl>' . $query . '</dpl>', $title, $parserOptions, false, true );
-		preg_match_all( '|\$\$\$(.+)\$\$\$|U', $parserOutput->getText(), $matches ); // Extract the titles from the output
+		if ( in_array( 'dpl', $parser->getTags() ) ) {
+			$parserOutput = $parser->parse( '<dpl>' . $query . '</dpl>', $title, $parserOptions, false, true );
+			preg_match_all( '|\$\$\$(.+)\$\$\$|U', $parserOutput->getContentHolderText(), $matches ); // Extract the titles from the output
+		} else {
+			$parserOutput = $parser->parse( '<DynamicPageList>' . $intersectionQuery . '</DynamicPageList>', $title, $parserOptions, false, true );
+			preg_match_all( '|<a href="[^"]+" title="([^"]+)">|', $parserOutput->getContentHolderText(), $matches );
+		}
 		return $matches[1]; // Return an array of titles
 	}
 
