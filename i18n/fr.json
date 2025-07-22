@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Bananax47",
 			"Gomoko",
 			"Thibaut120094",
 			"Verdy p",
@@ -9,7 +10,7 @@
 	},
 	"nukedpl": "Suppression en masse par requête DPL (liste dynamique de pages)",
 	"nukedpl-desc": "Ajoute une [[Special:NukeDPL|page spéciale]] pour la suppression en masse par requête DPL (liste dynamique de pages)",
-	"nukedpl-intro": "Cet outil permet les suppressions en masse de pages sélectionnées par une requête DPL (liste dynamique de pages).\n\nSaisissez une requête ci-dessous pour générer une liste des titres à supprimer.\n* Les titres peuvent être déplacés individuellement avant la suppression.\n* Rappelez-vous que les titres de page sont sensibles à la casse.\n* Les requêtes ne doivent pas être entourées de balises DPL ou d’accolades.\n* Pour savoir ce que signifient les paramètres, voyez le [http://semeb.com/dpldemo/index.php?title=DPL:Manual manuel de DPL].",
+	"nukedpl-intro": "Cet outil permet les suppressions en masse de pages sélectionnées par une requête DPL (liste dynamique de pages).\n\nSaisissez une requête ci-dessous pour générer une liste des titres à supprimer.\n* Les titres peuvent être déplacés individuellement avant la suppression.\n* Rappelez-vous que les titres de page sont sensibles à la casse.\n* Les requêtes ne doivent pas être entourées de balises DPL ou d’accolades.\n* Pour savoir ce que signifient les paramètres, voyez le [https://dpl3.wikitide.org/wiki/Main_Page DPL3 manuel de DPL].\n* Les utilisateurs de DPL/Intersection devrait consulter [https://www.mediawiki.org/wiki/Extension\n:DynamicPageList cette page] a la place.\nVous trouverez ci-dessous une sélection de paramètres DPL3. Notez qu'ils peuvent ne pas fonctionner avec DPL/Intersection.",
 	"nukedpl-candidatelist": "Afficher la liste des candidats",
 	"nukedpl-nopages": "Aucune page à supprimer en utilisant la requête DPL : <code>$1</code>",
 	"nukedpl-nuke": "Détruire !",
