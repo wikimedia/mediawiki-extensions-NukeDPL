@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Anterdc99",
+			"GuoPC",
 			"Liuxinyu970226"
 		]
 	},
 	"nukedpl": "通过DPL查询大量删除",
 	"nukedpl-desc": "加入用于通过DPL查询大量删除的[[Special:NukeDPL|特殊页面]]",
-	"nukedpl-intro": "此工具允许通过DPL查询大量删除选中页面。\n在下方输入查询以生成待删除标题列表。\n* 标题可在删除前被单独移除。\n* 记住，页面标题区分大小写。\n* 查询不应被任何DPL标签或括号包围。\n* 关于更多参数信息，参见[http://semeb.com/dpldemo/index.php?title=DPL:Manual DPL手册]。",
+	"nukedpl-intro": "此工具允许批量删除通过DPL查询选定的页面。\n\n请在下方输入查询，以生成待删除标题列表。\n* 标题可在删除前被单独移除。\n* 请记住，页面标题区分大小写。\n* 查询不应被任何DPL标签或括号包围。\n* 有关参数含义的信息，参见[https://dpl3.wikitide.org/wiki/Main_Page DPL3手册]。\n* DPL/Intersection用户应参考[https://www.mediawiki.org/wiki/Extension:DynamicPageList 扩展页面]。\n以下是部分DPL3参数。请注意，它们可能不适用于DPL/Intersection。",
 	"nukedpl-candidatelist": "查看候选列表",
 	"nukedpl-nopages": "没有页面可使用DPL查询删除：<code>$1</code>",
 	"nukedpl-nuke": "大量删除！",
