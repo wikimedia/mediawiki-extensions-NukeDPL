@@ -6,7 +6,7 @@
 	},
 	"nukedpl": "Deletion in massa per consulta DPL",
 	"nukedpl-desc": "Adde un [[Special:NukeDPL|pagina special]] pro deletion in massa per consulta DPL",
-	"nukedpl-intro": "Iste instrumento permitte le deletion in massa de paginas seligite per un consulta DPL.\n\nInsere un consulta hic infra pro generar un lista de titulos a deler.\n* Le titulos pote esser individualmente removite del lista ante de deler.\n* Non oblida que le titulos de paginas distingue inter majusculas e minusculas.\n* Le consultas non debe esser circumferite per etiquettas DPL ni per {accolladas}.\n* Pro obtener information sur le significato de parametros, vide le [http://semeb.com/dpldemo/index.php?title=DPL:Manual manual de DPL].",
+	"nukedpl-intro": "Iste instrumento permitte le deletion in massa de paginas seligite per un consulta DPL.\n\nInsere un consulta hic infra pro generar un lista de titulos a deler.\n* Le titulos pote esser individualmente removite del lista ante de deler.\n* Non oblida que le titulos de paginas distingue inter majusculas e minusculas.\n* Le consultas non debe esser circumferite per etiquettas DPL ni per {accolladas}.\n* Pro obtener information sur le significato de parametros, vide le [https://dpl3.wikitide.org/wiki/Main_Page manual de DPL3].\n* Le usatores de DPL/Intersection deberea consultar [https://www.mediawiki.org/wiki/Extension:DynamicPageList le pagina del extension] in vice.\nInfra se trova un selection de parametros DPL3. Nota que illos pote non functionar con DPL/Intersection.",
 	"nukedpl-candidatelist": "Vider lista de candidatos",
 	"nukedpl-nopages": "Il non ha paginas a deler con iste consulta DPL: <code>$1</code>",
 	"nukedpl-nuke": "Annihilar!",
