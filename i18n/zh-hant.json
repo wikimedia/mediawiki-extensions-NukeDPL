@@ -8,7 +8,7 @@
 	},
 	"nukedpl": "經由 DPL 查詢大量刪除",
 	"nukedpl-desc": "加入[[Special:NukeDPL|特殊頁面]]用於 DPL 查詢大量刪除",
-	"nukedpl-intro": "此工具允許用於大量刪除由 DPL 查詢所選的頁面。\n\n在下方輸入查詢來產生要刪除的標題清單。\n* 標題可在刪除前單獨移除。\n* 請記住頁面標題區分大小寫。\n* 查詢不應被包含在任何 DPL 標籤或括號。\n* 更多有關參數的含意，請查看 [http://semeb.com/dpldemo/index.php?title=DPL:Manual DPL 手冊]。",
+	"nukedpl-intro": "此工具允許用於大量刪除由 DPL 查詢所選的頁面。\n\n在下方輸入查詢來產生要刪除的標題清單。\n* 標題可在刪除前單獨移除。\n* 請記住頁面標題區分大小寫。\n* 查詢不應被包含在任何 DPL 標籤或括號。\n* 更多有關參數的含意，請查看 [https://dpl3.wikitide.org/wiki/Main_Page DPL3 手冊]。 \n* DPL/Intersection 使用者應參考[https://www.mediawiki.org/wiki/Extension:DynamicPageList 擴充功能頁面]。 \n以下是部分 DPL3 參數。請注意，他們可能不適用於 DPL/Intersection。",
 	"nukedpl-candidatelist": "檢視候選清單",
 	"nukedpl-nopages": "並無頁面通過 DPL 查詢刪除：<code>$1</code>",
 	"nukedpl-nuke": "大量刪除！",
