@@ -6,7 +6,7 @@
 	},
 	"nukedpl": "Masseslett med DPL-spørring",
 	"nukedpl-desc": "Legger til en [[Special:NukeDPL|spesialside]] for massesletting med DPL-spørring",
-	"nukedpl-intro": "Dette verktøyet gjør det mulig å masseslette sider valgt av en DPL-spørring.\n\nSkriv inn spørringen nedenfor for å generere en liste over titler som skal slettes.\n* Titler kan fjernes individuelt før sletting.\n* Husk at titler skiller mellom store og små bokstaver.\n* Spørringer kan ikke omgis av DPL-tagger eller krøllparenteser.\n* For informasjon om paramternes betydning, se [http://semeb.com/dpldemo/index.php?title=DPL:Manual DPL-manualen].",
+	"nukedpl-intro": "Dette verktøyet gjør det mulig å masseslette sider valgt av en DPL-spørring.\n\nSkriv inn spørringen nedenfor for å generere en liste over titler som skal slettes.\n* Titler kan fjernes individuelt før sletting.\n* Husk at titler skiller mellom store og små bokstaver.\n* Spørringer kan ikke omgis av DPL-tagger eller krøllparenteser.\n* Se [https://dpl3.wikitide.org/wiki/Main_Page DPL3-manualen] for informasjon om hva parameterne betyr.\n* Brukere av DPL/Intersection bør sjekke [https://www.mediawiki.org/wiki/Extension:DynamicPageList utvidelsessiden] i stedet.\nNedenfor er et utvalg av DPL3-parametre. Merk at de kanskje ikke virker med DPL/Intersection.",
 	"nukedpl-candidatelist": "Vis kandidatliste",
 	"nukedpl-nopages": "Ingen sider å slette med DPL-spørringen: <code>$1</code>",
 	"nukedpl-nuke": "Slett!",
