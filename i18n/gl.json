@@ -5,14 +5,14 @@
 			"Toliño"
 		]
 	},
-	"nukedpl": "Borrado masivo por petición LPD",
-	"nukedpl-desc": "Engade unha [[Special:NukeDPL|paxina especial]] para borrado masivo por petición LPD",
+	"nukedpl": "Borrado masivo mediante consulta DPL",
+	"nukedpl-desc": "Engade unha [[Special:NukeDPL|páxina especial]] para o borrado masivo mediante consulta DPL",
 	"nukedpl-intro": "\nEsta ferramenta permite o borrado masivo de páxinas seleccionadas por unha consulta DPL.\n\nInsira a consulta abaixo para xenerar unha lista de títulos a borrar.\n* Os títulos poden ser eliminados individualmente antes do borrado.\n* Lembre, os títulos de páxina son sensibles a maiúsculas e minúsculas\n* As consultas non deben estar rodeadas por etiquetas DPL ou corchetes\n* Para obter información sobre o significado dos parámetros, consulte o [http://semeb.com/dpldemo/index.php?title=DPL:Manual Manual de DPL].",
-	"nukedpl-candidatelist": "Ver lista de candidatos",
-	"nukedpl-nopages": "Non hai páxinas a borrar usando a petición LPD: <code>$1</code>",
+	"nukedpl-candidatelist": "Ver a lista de candidatos",
+	"nukedpl-nopages": "Non hai páxinas para borrar usando a consulta DPL: <code>$1</code>",
 	"nukedpl-nuke": "Suprimir!",
-	"nukedpl-list": "{{PLURAL:$1|A seguinte páxina foi|as seguintes páxinas foron}} seleccionadas pola consulta DPL: <code>$2</code>\n\nPrema \"{{int:nukedpl-nuke}}\" para  {{PLURAL:$1|borrala|borralas}}.",
-	"nukedpl-defaultreason": "Borrado masivo de páxinas seleccionadas pola petición LPD: $1",
-	"action-nukedpl": "borrar páxinas por peticións de Lista de Páxinas Dinámica",
-	"right-nukedpl": "Borrar páxinas por peticións de Lista de Páxinas Dinámica"
+	"nukedpl-list": "{{PLURAL:$1|A seguinte páxina foi|as seguintes páxinas foron}} seleccionadas pola consulta DPL: <code>$2</code>\n\nPreme en «{{int:nukedpl-nuke}}» para  {{PLURAL:$1|borrala|borralas}}.",
+	"nukedpl-defaultreason": "Borrado masivo de páxinas seleccionadas pola consulta DPL: $1",
+	"action-nukedpl": "borrar páxinas mediante consultas de lista dinámica de páxinas",
+	"right-nukedpl": "Borrar páxinas mediante consultas de lista dinámica de páxinas"
 }
