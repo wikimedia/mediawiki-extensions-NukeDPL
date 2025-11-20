@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
-			"MuratTheTurkish"
+			"MuratTheTurkish",
+			"SaldırganSincap"
 		]
 	},
 	"nukedpl": "DPL sorgusu ile toplu sil",
 	"nukedpl-desc": "DPL sorgusuna göre toplu silme için [[Special:NukeDPL|özel sayfa]] ekler",
-	"nukedpl-intro": "Bu araç, bir DPL sorgusu tarafından seçilen sayfaların toplu olarak silinmesine izin verir.\n\nSilinecek başlıkların bir listesini oluşturmak için aşağıya bir sorgu girin.\n* Silmeden önce başlıklar ayrı ayrı kaldırılabilir.\n* Unutmayın, sayfa başlıkları büyük/küçük harf duyarlıdır.\n* Sorgular, herhangi bir DPL etiketi veya parantez ile çevrelenmemelidir.\n* Parametre anlamları hakkında bilgi için [http://semeb.com/dpldemo/index.php?title=DPL:Manual DPL Manüel] sayfasına bakın.",
+	"nukedpl-intro": "Bu araç, bir DPL sorgusu tarafından seçilen sayfaların toplu olarak silinmesine izin verir.\n\nSilinecek başlıkların bir listesini oluşturmak için aşağıya bir sorgu girin.\n* Silmeden önce başlıklar ayrı ayrı kaldırılabilir.\n* Unutmayın, sayfa başlıkları büyük/küçük harf duyarlıdır.\n* Sorgular, herhangi bir DPL etiketi veya parantez ile çevrelenmemelidir.\n* Parametre anlamları hakkında bilgi için [https://dpl3.wikitide.org/wiki/Main_Page DPL3 Kılavuzuna] bakın.\n* DPL/Intersection kullanıcıları bunun yerine [https://www.mediawiki.org/wiki/Extension:DynamicPageList uzantı sayfasına] bakmalıdır.\nAşağıda DPL3 parametrelerinden bir seçki bulunmaktadır. Bunların DPL/Intersection ile çalışmayabileceğini unutmayın.",
 	"nukedpl-candidatelist": "Aday listesini görüntüle",
 	"nukedpl-nopages": "DPL sorgusu kullanılarak silinecek sayfa yok: <code>$1</code>",
 	"nukedpl-nuke": "Nük!",
