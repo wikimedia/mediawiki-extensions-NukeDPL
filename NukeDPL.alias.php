@@ -53,12 +53,17 @@ $specialPageAliases['sr-el'] = [
 	'NukeDPL' => [ 'Masovno_brisanje_sa_dinamičkog_spiska' ],
 ];
 
-/** Simplified Chinese (中文（简体）‎) */
+/** Chinese (中文) */
+$specialPageAliases['zh'] = [
+	'NukeDPL' => [ 'NukeDPL' ],
+];
+
+/** Simplified Chinese (中文（简体）) */
 $specialPageAliases['zh-hans'] = [
 	'NukeDPL' => [ '大量删除DPL' ],
 ];
 
-/** Traditional Chinese (中文（繁體）‎) */
+/** Traditional Chinese (中文（繁體）) */
 $specialPageAliases['zh-hant'] = [
-	'NukeDPL' => [ '大量刪除_DPL' ],
+	'NukeDPL' => [ '大量刪除DPL', '大量刪除_DPL' ],
 ];
