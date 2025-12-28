@@ -1,5 +1,6 @@
 <?php
 
+use MediaWiki\Html\Html;
 use MediaWiki\Linker\Linker;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Title\Title;
@@ -44,10 +45,10 @@ class SpecialNukeDPL extends SpecialPage {
 
 		$output->addWikiTextAsInterface( $this->msg( 'nukedpl-intro' )->text() );
 
-		$output->addHTML( Xml::element( 'form', [ 'action' => $title->getLocalURL( 'action=submit' ), 'method' => 'post' ], null ) );
-		$output->addHTML( Xml::element( 'textarea', [ 'name' => 'query', 'style' => 'width: 100%; height: 50em;' ], $this->msg( 'nukedpl-defaulttext' )->text() ) );
-		$output->addHTML( Xml::element( 'br' ) );
-		$output->addHTML( Xml::element( 'input', [ 'type' => 'submit', 'value' => $this->msg( 'nukedpl-candidatelist' )->text() ] ) );
+		$output->addHTML( Html::openElement( 'form', [ 'action' => $title->getLocalURL( 'action=submit' ), 'method' => 'post' ] ) );
+		$output->addHTML( Html::element( 'textarea', [ 'name' => 'query', 'style' => 'width: 100%; height: 50em;' ], $this->msg( 'nukedpl-defaulttext' )->text() ) );
+		$output->addHTML( Html::element( 'br' ) );
+		$output->addHTML( Html::element( 'input', [ 'type' => 'submit', 'value' => $this->msg( 'nukedpl-candidatelist' )->text() ] ) );
 		$output->addHTML( '</form>' );
 	}
 
@@ -64,22 +65,22 @@ class SpecialNukeDPL extends SpecialPage {
 
 		$output->addWikiTextAsInterface( $this->msg( 'nukedpl-list', $count, $query )->text() );
 
-		$output->addHTML( Xml::element( 'form', [ 'action' => $title->getLocalURL( 'action=delete' ), 'method' => 'post' ], null ) );
-		$output->addHTML( Xml::element( 'input', [ 'type' => 'submit', 'value' => $this->msg( 'nukedpl-nuke' )->text() ] ) );
-		$output->addHTML( Xml::element( 'div', [], $this->msg( 'deletecomment' )->text() ) );
-		$output->addHTML( Xml::element( 'input', [ 'name' => 'reason', 'value' => $reason, 'size' => 60 ] ) );
+		$output->addHTML( Html::openElement( 'form', [ 'action' => $title->getLocalURL( 'action=delete' ), 'method' => 'post' ] ) );
+		$output->addHTML( Html::element( 'input', [ 'type' => 'submit', 'value' => $this->msg( 'nukedpl-nuke' )->text() ] ) );
+		$output->addHTML( Html::element( 'div', [], $this->msg( 'deletecomment' )->text() ) );
+		$output->addHTML( Html::element( 'input', [ 'name' => 'reason', 'value' => $reason, 'size' => 60 ] ) );
 		$output->addHTML( '<ol>' );
 		foreach ( $pages as $page ) {
 			$page = Title::newFromText( $page );
 			if ( $page && $page->isKnown() ) {
 				$output->addHTML( '<li>' );
-				$output->addHTML( Xml::element( 'input', [ 'type' => 'checkbox', 'name' => 'ids[]', 'value' => $page->getArticleID(), 'checked' => 'checked' ] ) );
+				$output->addHTML( Html::element( 'input', [ 'type' => 'checkbox', 'name' => 'ids[]', 'value' => $page->getArticleID(), 'checked' => 'checked' ] ) );
 				$output->addHTML( Linker::linkKnown( $page ) );
 				$output->addHTML( '</li>' );
 			}
 		}
 		$output->addHTML( '</ol>' );
-		$output->addHTML( Xml::element( 'input', [ 'type' => 'submit', 'value' => $this->msg( 'nukedpl-nuke' )->text() ] ) );
+		$output->addHTML( Html::element( 'input', [ 'type' => 'submit', 'value' => $this->msg( 'nukedpl-nuke' )->text() ] ) );
 		$output->addHTML( '</form>' );
 	}
 
