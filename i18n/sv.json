@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Jopparn",
-			"Lokal Profil"
+			"Lokal Profil",
+			"Stefan2255"
 		]
 	},
 	"nukedpl": "Massradering genom DPL-förfrågan",
@@ -13,5 +14,6 @@
 	"nukedpl-nuke": "Radera!",
 	"nukedpl-list": "Följande {{PLURAL:$1|sida|sidor}} valdes av DPL-förfrågan: <code>$2</code>\n\nTryck \"{{int:nukedpl-nuke}}\" för att radera {{PLURAL:$1|den|dem}}.",
 	"nukedpl-defaultreason": "Massradering av sidor utifrån DPL-förfrågan: $1",
+	"action-nukedpl": "nuke pages via dynamiska sidlistfrågor",
 	"right-nukedpl": "Massradera sidor genom \"Dynamic Page List\"-förfrågningar"
 }
