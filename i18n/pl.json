@@ -2,17 +2,18 @@
 	"@metadata": {
 		"authors": [
 			"Rail",
-			"Railfail536"
+			"Railfail536",
+			"Woytecr"
 		]
 	},
-	"nukedpl": "Masowe usuwanie z zapytania DPL",
-	"nukedpl-desc": "Dodaje [[Special:NukeDPL|stronę specjalną]] do masowego usuwania z zapytania DPL",
-	"nukedpl-intro": "To narzędzie umożliwia masowe kasowanie stron znalezionych w wywołaniu DPL.\n\nWprowadź zapytanie poniżej aby wygenerować listę stron do usunięcia.\n* Strony mogą być indywidualnie usuwane z listy przed uruchomieniem narzędzia.\n* Pamiętaj że wielkość liter w tytułach ma znaczenie.\n* Zapytania nie powinny być zamknięte w żadnych tagach ani nawiasach DPL.\n* Aby uzyskać więcej informacji na temat znaczenia parametrów sprawdź [http://semeb.com/dpldemo/index.php?title=DPL:Manual dokumentację rozszerzenia DPL].",
+	"nukedpl": "Masowe usuwanie według zapytania DPL",
+	"nukedpl-desc": "Dodaje [[Special:NukeDPL|stronę specjalną]] do masowego usuwania według zapytania DPL",
+	"nukedpl-intro": "To narzędzie umożliwia masowe kasowanie stron znalezionych w wywołaniu DPL.\n\nWprowadź zapytanie poniżej aby wygenerować listę stron do usunięcia.\n* Strony mogą być indywidualnie usuwane z listy przed uruchomieniem narzędzia.\n* Pamiętaj, że wielkość liter w tytułach ma znaczenie.\n* Zapytania nie powinny być zamknięte w żadnych tagach DPL ani nawiasach.\n* Aby uzyskać więcej informacji na temat znaczenia parametrów, sprawdź [ttps://dpl3.wikitide.org/wiki/Main_Page dokumentację rozszerzenia DPL3].\n* Użytkownicy DPL/Intersection powinni zapoznać się w zamian ze [https://www.mediawiki.org/wiki/Extension:DynamicPageList stroną tego rozszerzenia].\nPoniżej stosowane są wybrane parametry DPL3. Nie wszystkie będą działać z DPL/Intersection.",
 	"nukedpl-candidatelist": "Zobacz listę stron",
 	"nukedpl-nopages": "Nie znaleziono żadnych stron do usunięcia przy użyciu zapytania DPL: <code>$1</code>",
 	"nukedpl-nuke": "Usuń!",
 	"nukedpl-list": "{{PLURAL:$1|Poniższa strona została znaleziona|Poniższe strony zostały znalezione}} w zapytaniu DPL: <code>$2</code>\n\nKliknij przycisk „{{int:nukedpl-nuke}}” aby {{PLURAL:$1|ją|je}} usunąć.",
-	"nukedpl-defaultreason": "Masowe usuwanie stron znalezionych w zapytaniu DPL: $1",
+	"nukedpl-defaultreason": "Masowe usuwanie stron znalezionych poprzez zapytanie DPL: $1",
 	"action-nukedpl": "masowego usuwania stron przy użyciu zapytań Dynamic Page List",
 	"right-nukedpl": "Masowe usuwanie stron przy użyciu zapytań Dynamic Page List"
 }
