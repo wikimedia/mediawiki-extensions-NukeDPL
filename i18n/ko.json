@@ -4,12 +4,13 @@
 			"Gustmd7410",
 			"Hym411",
 			"Revi",
+			"Tensama0415",
 			"아라"
 		]
 	},
 	"nukedpl": "DPL 쿼리를 통한 대량 삭제",
 	"nukedpl-desc": "DPL 쿼리를 통한 대량 삭제를 위한 [[Special:NukeDPL|특수 문서]]를 추가합니다",
-	"nukedpl-intro": "이 도구를 사용하면 DPL 쿼리로 선택한 문서를 대량 삭제할 수 있습니다.\n\n아래에 삭제할 문서 목록을 생성하는 쿼리를 입력하십시오.\n* 각 문서는 삭제하기 전에 개별적으로 선택할 수 있습니다.\n* 문서 제목은 대소문자를 구분한다는 점을 명심하세요.\n* 쿼리는 DPL 태그나 중괄호로 묶으면 안 됩니다.\n* 매개변수의 의미는 [http://semeb.com/dpldemo/index.php?title=DPL:Manual DPL 매뉴얼]에서 확인하실 수 있습니다.",
+	"nukedpl-intro": "이 도구를 사용하면 DPL 쿼리로 선택한 문서를 대량 삭제할 수 있습니다.\n\n아래에 삭제할 문서 목록을 생성하는 쿼리를 입력하십시오.\n* 각 문서는 삭제하기 전에 개별적으로 선택할 수 있습니다.\n* 문서 제목은 대소문자를 구분한다는 점을 명심하세요.\n* 쿼리는 DPL 태그나 중괄호로 묶으면 안 됩니다.\n* 매개변수의 의미는 [https://dpl3.wikitide.org/wiki/Main_Page DPL3 매뉴얼]에서 확인하실 수 있습니다.\n* DPL/Intersection 사용자는 대신 [https://www.mediawiki.org/wiki/Extension:DynamicPageList 해당 확장 기능 페이지]를 참고하시기 바랍니다.\n* 다음은 DPL3 매개변수의 일부입니다. 이 매개변수들은 DPL/Intersection에서는 작동하지 않을 수 있으니 유의하시기 바랍니다.",
 	"nukedpl-candidatelist": "후보 목록 보기",
 	"nukedpl-nopages": "다음 DPL 쿼리를 사용해 삭제할 문서가 없습니다: <code>$1</code>",
 	"nukedpl-nuke": "대량 삭제!",
