@@ -8,7 +8,12 @@ use MediaWiki\Title\Title;
 class SpecialNukeDPL extends SpecialPage {
 
 	function __construct() {
-		parent::__construct( 'NukeDPL', 'nukedpl' );
+		parent::__construct( 'NukeDPL' );
+	}
+
+	/** @inheritDoc */
+	public function getRestriction(): string {
+		return 'nukedpl';
 	}
 
 	public function doesWrites() {
