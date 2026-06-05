@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Otokoume",
-			"Shirayuki"
+			"Shirayuki",
+			"Tensama0415"
 		]
 	},
 	"nukedpl": "DPLクエリで一括削除",
 	"nukedpl-desc": "DPL クエリで一括削除できる[[Special:NukeDPL|特別ページ]]を追加する",
-	"nukedpl-intro": "このツールでは、DPL クエリによって選択されたページを一括削除できます。\n\n削除対象のタイトル一覧を生成するには、以下にクエリを入力してください。\n* タイトルは削除前に個別に除外できます。\n* ページタイトルは大文字と小文字を区別します。\n* クエリは DPL タグや中括弧で囲まないでください。\n* パラメーターの意味については、[http://semeb.com/dpldemo/index.php?title=DPL:Manual DPL マニュアル]を参照してください。",
+	"nukedpl-intro": "このツールでは、DPL クエリによって選択されたページを一括削除できます。\n\n削除対象のタイトル一覧を生成するには、以下にクエリを入力してください。\n* タイトルは削除前に個別に除外できます。\n* ページタイトルは大文字と小文字を区別します。\n* クエリは DPL タグや中括弧で囲まないでください。\n* パラメーターの意味については、[https://dpl3.wikitide.org/wiki/Main_Page DPL3 マニュアル]を参照してください。\n* DPL/Intersectionを利用する場合は、代わりに[https://www.mediawiki.org/wiki/Extension:DynamicPageList 拡張機能のページ]を産所してください。\n以下は、DPL3のパラメータの一部です。これらはDPL/Intersectionでは機能しない場合がある点にご注意ください。",
 	"nukedpl-candidatelist": "候補一覧を表示",
 	"nukedpl-nopages": "以下の DPL クエリでは削除するページが見つかりませんでした: <code>$1</code>",
 	"nukedpl-nuke": "一括削除!",
