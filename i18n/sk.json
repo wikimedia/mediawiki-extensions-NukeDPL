@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"nukedpl": "Hromadné mazanie podľa dopytu DPL",
+	"nukedpl-desc": "Pridáva [[Special:NukeDPL|špeciálnu stránku]] na hromadné mazanie podľa dopytu DPL",
+	"nukedpl-candidatelist": "Zobraziť zoznam kandidátov",
+	"nukedpl-nopages": "Dopyt DPL nevrátil žiadne stránky na zmazanie: <code>$1</code>",
+	"nukedpl-nuke": "Zmazať!",
+	"nukedpl-list": "{{PLURAL:$1|Nasledujúca stránka bola vybraná|Nasledujúce stránky boli vybrané}} dopytom DPL: <code>$2</code>\n\nStlačením „{{int:nukedpl-nuke}}“ {{PLURAL:$1|ju|ich}} zmažete.",
+	"nukedpl-defaultreason": "Hromadné odstránenie stránok vybraných dopytom DPL: $1",
+	"action-nukedpl": "hromadne mazať stránky podľa dopytov Dynamic Page List",
+	"right-nukedpl": "Hromadne mazať stránky podľa dopytov Dynamic Page List"
+}
